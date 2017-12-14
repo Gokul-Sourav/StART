@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="New/ang.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+ </head>
+ <body ng-app="myApp" >
+   <br>
+  	<div class="shopping"  ng-controller="MainController" >
+      <span>products</span>
+      <br><br>
+      <a href="index.html">View Cart </a>
+      <br><br>
+      <div class="prod">
+        <span>Lenovo vibe k5 note </span>
+        <br><br>
+        <span >₹12000</span>
+        <br><br>
+        <button ng-click="addingToCart('Lenovo vibe k5 note','12000')">Add to cart </button>
+      </div>
+      <div class="prod">
+        <span>Redmi note 4 </span>
+      <br><br>
+        <span>₹12000</span>
+      <br><br>
+        <button>Add to cart </button>
+      </div>
+      <div class="prod">
+        <span>Oppo F3 plus</span>
+      <br><br>
+        <span>₹23000</span>
+      <br><br>
+        <button>Add to cart </button>
+      </div>
+      <div class="prod">
+        <span>Lenovo k5 plus </span>
+      <br><br>
+        <span>₹11000</span>
+      <br><br>
+        <button>Add to cart </button>
+      </div>
+      <div class="prod">
+        <span>Lenovo k6 note </span>
+      <br><br>
+        <span>₹15000</span>
+      <br><br>
+        <button>Add to cart </button>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/Controllers/MainController.js"></script>
+  </body>
+  </html>
